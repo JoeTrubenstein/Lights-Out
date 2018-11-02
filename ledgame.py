@@ -1,3 +1,7 @@
+#this is a "lights-out" game using three LED bulbs connected to the Raspberry Pi's GPIO board
+#toggling a switch will affect adjacent switches
+#player wins when all 3 lights are switched off
+
 from gpiozero import LED
 import time
 
